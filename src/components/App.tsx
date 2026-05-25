@@ -1,7 +1,7 @@
 // src/App.tsx
 import { useState, useEffect } from 'react';
-import { WORKOUT_TYPES } from './data/workoutTypes';
-import { loadData, saveData } from './utils/storage';
+import { WORKOUT_TYPES } from '../data/workoutTypes';
+import { loadData, saveData } from '../utils/storage';
 
 export default function App() {
   const [tab, setTab] = useState('log');
